@@ -46,32 +46,48 @@
   align-items:left;
   list-style: none;
 }
-.linkNav{
-  color: linen;
-}
-.nav-buttons{
-  width: 15%;
-  display: flex;
-  justify-content: right;
-  align-items:center;
-  list-style: none;
-  position: absolute;
-  right: 0;
-  height: 94.75px;
 
-
-}
 .nav-bar{
   display:flex;
   width: 100%;
+  min-height: 100px;
   justify-content: center;
+  div{
+    width: 90%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    .menu-list-nav{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      *{
+        margin-left: 5px;
+      }
+    }
+    .nav-buttons{
+      display: flex;
+      flex-grow: 0;
+      flex-direction: row;
+      justify-content: right;
+      align-items: center;
+      *{
+        margin: 5px;
+      }
+    }
+
+  }
 }
 .nav-mid{
   width: 45%;
 }
 .home{
-  margin-left: 70px;
-  margin-right: 70px;
+  //margin-left: 70px;
+  //margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .logo{
   display: flex;
