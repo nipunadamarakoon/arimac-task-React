@@ -4,7 +4,7 @@ import Navbar from './components/navBar';
 import Footer from './components/footer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {Home} from "./Home";
-
+import 'antd/dist/antd.css';
 function App() {
   return (
       <Router>
