@@ -120,16 +120,19 @@
   .left{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
   }
-  .left{
+  .right{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
     align-items: flex-start;
     flex-grow: 1;
+    *{
+      margin: 40px 5px 0 5px;
+    }
   }
 
 }
@@ -137,11 +140,11 @@
   margin: 10px;
   min-width: 33%;
   max-width: 33%;
-  min-height: 80%;
-  max-height: 80%;
+  min-height: 158px;
+  max-height: 158px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   text-align: left;
   color: white;
