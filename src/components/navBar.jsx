@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import Logo from '../assets/images/logo.svg';
+import {Button} from "antd";
 
 
 const Navbar = () => {
@@ -37,7 +38,7 @@ const Navbar = () => {
                     <h3>Login</h3>
                 </Link>
                 <Link to="#">
-                    <button>Sign up</button>
+                    <Button className={'signup-btn'}>Sign Up</Button>
                 </Link>
             </div>
 

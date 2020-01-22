@@ -1,10 +1,12 @@
 import React from 'react';
+import MiddleBar from './MiddleSearchBar';
 import Icon1Svg from '../../assets/images/icon-brand-recognition.svg';
 import Icon2Svg from '../../assets/images/icon-detailed-records.svg';
 import Icon3Svg from '../../assets/images/icon-fully-customizable.svg';
 const AdvancedStatistics = (props)=>{
     return<div className="advanced-statics">
         <div>
+            <MiddleBar/>
             <AdvancedStatisticsContents/>
         </div>
         <div className="line"/>

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from "antd";
 
 const BootsLink = ()=>{
     return<div className="boots-link">
@@ -12,7 +13,7 @@ const BootsLinkContents =()=>{
     return <>
         <div className="boots-link-contents">
             <h1>Boots your link today </h1>
-            <button>Get Started</button>
+            <Button className={'boot-link-btn'}>Get Started</Button>
         </div>
     </>
 }
