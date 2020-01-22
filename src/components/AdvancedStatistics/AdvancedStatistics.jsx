@@ -21,19 +21,19 @@ const AdvancedStatistics = (props)=>{
                 /></div>
                 <div className="two" ><AdvancedStaticsCard
                     logo={Icon2Svg}
-                    title={"Brand Recognition"}
-                    desc={"Boost your brand recognition with\n" +
-                    "    each click.Generic links dont's mean a\n" +
-                    "thing. Branded links help instill\n" +
-                    "confidence in your context"}
+                    title={"Detailed records"}
+                    desc={"Gain insights into who is clicking your\n" +
+                    "    links. Knowing when and where\n" +
+                    "people engage with your content\n" +
+                    "helps inform better decisions"}
                 /></div>
                 <div className="three"><AdvancedStaticsCard
                     logo={Icon3Svg}
-                    title={"Brand Recognition"}
-                    desc={"Boost your brand recognition with\n" +
-                    "    each click.Generic links dont's mean a\n" +
-                    "thing. Branded links help instill\n" +
-                    "confidence in your context"}
+                    title={"Fully Customizable"}
+                    desc={"Improve brand ewareness and\n" +
+                    "    content discoverability through\n" +
+                    "customizable links. supercharging\n" +
+                    "audience engagement."}
                 /></div>
             </div>
 
