@@ -1,13 +1,19 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import MiddleBar from './MiddleSearchBar';
 import Icon1Svg from '../../assets/images/icon-brand-recognition.svg';
 import Icon2Svg from '../../assets/images/icon-detailed-records.svg';
 import Icon3Svg from '../../assets/images/icon-fully-customizable.svg';
+import {Urlcontext} from "../../Home";
+
 const AdvancedStatistics = (props)=>{
+    const context = useContext(Urlcontext);
     return<div className="advanced-statics">
         <div>
             <MiddleBar/>
+
             <AdvancedStatisticsContents/>
+            <div><p style={{ color: 'red' }}>{context.url}</p>
+            </div>
         </div>
         <div className="line"/>
             <div className="advanced-statics-cart-direction">

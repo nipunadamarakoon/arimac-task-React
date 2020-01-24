@@ -11,13 +11,9 @@ function App() {
     <div className="App">
        <div className="home">
            <Navbar/>
-
            <Switch>
                <Route path="/" component={Home} />
-               {/*<Route path="/about"  />*/}
-               {/*<Route path="/shop"  />*/}
            </Switch>
-
        </div>
         <Footer/>
     </div>
